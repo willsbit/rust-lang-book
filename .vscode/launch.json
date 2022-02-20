@@ -1,0 +1,55 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/guessing_game/target/debug/guessing_game.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true
+        },
+        {
+            "name": "(OSX) Launch",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceRoot}/guessing_game/target/debug/guessing_game",
+            "args": [],
+            "cwd": "${workspaceRoot}",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "(OSX) dbg 2",
+            "args": [],
+            "program": "${workspaceFolder}/guessing_game/target/debug/guessing_game",
+            "windows": {
+                "program": "${workspaceFolder}/target/debug/guessing_game.exe"
+            },
+            "cwd": "${workspaceFolder}",
+            "stopOnEntry": false,
+            "sourceLanguages": [
+                "rust"
+            ],
+            "sourceMap": {
+                "/rustc/*": "${env:HOME}/.rustup/toolchains/stable-x86_64-apple-darwin/lib/rustlib/src/rust"
+            }
+        },
+        {
+            "name": "(Windows) dbg 2",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/guessing_game/target/debug/guessing_game.exe",
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "sourceFileMap": {
+                "/rustc/5e1a799842ba6ed4a57e91f7ab9435947482f7d8": "${env:USERPROFILE}/.rustup/toolchains/stable-x86_64-pc-windows-msvc/lib/rustlib/src/rust"
+            },
+            "symbolSearchPath": "https://msdl.microsoft.com/download/symbols",
+            "environment": []
+        }
+    ]
+}
