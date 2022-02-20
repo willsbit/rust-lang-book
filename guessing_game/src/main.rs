@@ -1,6 +1,6 @@
-use std::io;
-use std::cmp::Ordering;
 use rand::Rng;
+use std::cmp::Ordering;
+use std::io;
 
 fn main() {
     println!("Guess the number!");
@@ -10,7 +10,6 @@ fn main() {
     // println!("The secret number is: {}", secret_number);
 
     loop {
-    
         println!("Please input your guess.");
 
         let mut guess = String::new();
@@ -30,7 +29,7 @@ fn main() {
             Ordering::Less => println!("Too small!"),
             Ordering::Greater => println!("Too big!"),
             Ordering::Equal => {
-                println!("You win!"); 
+                println!("You win!");
                 break;
             }
         }
