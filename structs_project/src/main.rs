@@ -34,6 +34,4 @@ fn main() {
     println!("rect2 can hold rect1: {}", rect2.can_hold(&rect1));
 
     let square = Rectangle::square(3);
-
-
 }
