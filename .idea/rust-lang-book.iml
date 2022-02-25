@@ -6,10 +6,12 @@
       <sourceFolder url="file://$MODULE_DIR$/hello_cargo/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/variables/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ownership/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/structs_project/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
       <excludeFolder url="file://$MODULE_DIR$/ownership/target" />
+      <excludeFolder url="file://$MODULE_DIR$/structs_project/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
