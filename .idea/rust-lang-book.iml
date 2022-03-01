@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/enum_match/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/if_let/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/packages_crates_modules/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/vectors/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
@@ -20,6 +21,7 @@
       <excludeFolder url="file://$MODULE_DIR$/enum_match/target" />
       <excludeFolder url="file://$MODULE_DIR$/if_let/target" />
       <excludeFolder url="file://$MODULE_DIR$/packages_crates_modules/target" />
+      <excludeFolder url="file://$MODULE_DIR$/vectors/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
