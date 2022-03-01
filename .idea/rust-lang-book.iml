@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/packages_crates_modules/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/strings/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/vectors/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/hashmap/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/hello_cargo/target" />
       <excludeFolder url="file://$MODULE_DIR$/guessing_game/target" />
       <excludeFolder url="file://$MODULE_DIR$/variables/target" />
@@ -24,6 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/packages_crates_modules/target" />
       <excludeFolder url="file://$MODULE_DIR$/vectors/target" />
       <excludeFolder url="file://$MODULE_DIR$/strings/target" />
+      <excludeFolder url="file://$MODULE_DIR$/hashmap/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
